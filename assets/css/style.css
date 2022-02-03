@@ -1,0 +1,118 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Eater&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Eater', cursive;;
+}
+
+.header {
+  width: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    background: url('../img/overlay.png'), url(../img/sci-fi_bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #83D2E4;
+  text-align: center;
+}
+
+.logo {
+    width: 20rem;
+}
+header h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(18.5rem,2fr));
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.card {
+    color: #333;
+    padding: 1rem;
+    background: rgba(255, 243, 227, 0.3);
+    border-radius: 10px;
+    border-top: 0.5px solid #cebf7b;
+    border-bottom: 0.5px solid #cebf7b;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s ease-in-out all;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-id {
+    background: #8BCF21;
+    width: 3rem;
+    padding: 0.1rem;
+    font-weight: 700;
+    position: absolute;
+    border-radius: 0 0 10px 0;
+    top: 0;
+    left: 0;
+}
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    padding: 1rem;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+.card-body {
+    font-size: 1.5rem;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #8BCF21;
+}
+.page-item > .page-link{
+   color:#8BCF21;
+}
+.page-item > .page-link, .page-item.disabled > .page-link {
+    background: #333;
+}
+
+.page-item > .page-link:hover {
+    background: #444;
+}
+
+.header {
+  width: 100%;
+  z-index: 1;
+  color: #aee6e3;
+}
+
+
